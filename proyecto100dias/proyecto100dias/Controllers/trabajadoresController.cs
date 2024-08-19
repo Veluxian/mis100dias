@@ -9,7 +9,7 @@ using proyecto100dias.Models;
 
 namespace proyecto100dias.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/trabajadores")]
     [ApiController]
     public class trabajadoresController : ControllerBase
     {
@@ -25,20 +25,6 @@ namespace proyecto100dias.Controllers
         public async Task<ActionResult<IEnumerable<trabajadores>>> Gettrabajadores()
         {
             return await _context.trabajadores.ToListAsync();
-        }
-
-        // GET: api/trabajadores/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<trabajadores>> Gettrabajadores(long id)
-        {
-            var trabajadores = await _context.trabajadores.FindAsync(id);
-
-            if (trabajadores == null)
-            {
-                return NotFound();
-            }
-
-            return trabajadores;
         }
 
         // PUT: api/trabajadores/5

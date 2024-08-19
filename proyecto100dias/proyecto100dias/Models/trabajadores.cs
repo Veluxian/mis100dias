@@ -1,13 +1,18 @@
-﻿namespace proyecto100dias.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace proyecto100dias.Models
 {
     public class trabajadores
     {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("id_trabajador")]
         public long id {get;set;}  
-        public string? primerNombre { get;set;}
-        public string? segundoNombre { get;set;}
-        public string? primerApellido { get;set;}
-        public string? segundoApellido { get;set;}
-        public int? rutTrabajador { get;set;}
-        public DateTime? fechaNacimiento { get;set;}
+        public string? primer_nombre { get;set;}
+        public string? segundo_nombre { get;set;}
+        public string? primer_apellido { get;set;}
+        public string? segundo_apellido { get;set;}
+        public int? rut_trabajador { get;set;}
+        public DateTime? fecha_nacimiento { get;set;}
     }
 }

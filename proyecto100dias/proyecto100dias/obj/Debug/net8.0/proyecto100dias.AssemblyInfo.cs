@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyecto100dias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2a0bc765e4c1d4a0d240c56e1cab0b550b566a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc1ec502f92232fd63d8a4097e2988515d39e37e")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyecto100dias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyecto100dias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
