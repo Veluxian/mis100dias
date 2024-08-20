@@ -95,11 +95,7 @@ namespace proyecto100dias.Controllers
         private static trabajadoresDTO nombreCompletoDTO(trabajadores trabajadores) =>
             new trabajadoresDTO
             {
-                primer_nombre = trabajadores.primer_nombre,
-                segundo_nombre = trabajadores.segundo_nombre,
-                primer_apellido = trabajadores.primer_apellido,
-                segundo_apellido = trabajadores.segundo_apellido,
-                nombreCompleto = trabajadores.primer_nombre + trabajadores.segundo_nombre + trabajadores.primer_apellido + trabajadores.segundo_apellido
+                nombreCompleto = trabajadores.primer_nombre+ " " + trabajadores.segundo_nombre + " " + trabajadores.primer_apellido + " " + trabajadores.segundo_apellido
             };
     }
 }
