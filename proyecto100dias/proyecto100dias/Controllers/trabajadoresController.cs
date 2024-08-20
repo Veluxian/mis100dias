@@ -22,9 +22,11 @@ namespace proyecto100dias.Controllers
 
         // GET: api/trabajadores
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<trabajadores>>> Gettrabajadores()
+        public async Task<ActionResult<IEnumerable<trabajadoresDTO>>> Gettrabajadores()
         {
-            return await _context.trabajadores.ToListAsync();
+            return await _context.trabajadores
+                .Select(x => nombreCompletoDTO(x))
+                .ToListAsync();
         }
 
         // PUT: api/trabajadores/5
@@ -89,5 +91,15 @@ namespace proyecto100dias.Controllers
         {
             return _context.trabajadores.Any(e => e.id == id);
         }
+
+        private static trabajadoresDTO nombreCompletoDTO(trabajadores trabajadores) =>
+            new trabajadoresDTO
+            {
+                primer_nombre = trabajadores.primer_nombre,
+                segundo_nombre = trabajadores.segundo_nombre,
+                primer_apellido = trabajadores.primer_apellido,
+                segundo_apellido = trabajadores.segundo_apellido,
+                nombreCompleto = trabajadores.primer_nombre + trabajadores.segundo_nombre + trabajadores.primer_apellido + trabajadores.segundo_apellido
+            };
     }
 }
