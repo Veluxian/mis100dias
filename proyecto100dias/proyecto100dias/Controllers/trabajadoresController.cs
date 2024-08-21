@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using proyecto100dias.Models;
 
 namespace proyecto100dias.Controllers
@@ -65,6 +66,10 @@ namespace proyecto100dias.Controllers
         [HttpPost]
         public async Task<ActionResult<trabajadores>> Posttrabajadores(trabajadores trabajadores)
         {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             _context.trabajadores.Add(trabajadores);
             await _context.SaveChangesAsync();
 

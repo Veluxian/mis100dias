@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using proyecto100dias.Models;
@@ -11,9 +12,11 @@ using proyecto100dias.Models;
 namespace proyecto100dias.Migrations
 {
     [DbContext(typeof(pieroDbContext))]
-    partial class pieroDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240821052923_actualizacionModelo")]
+    partial class actualizacionModelo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
