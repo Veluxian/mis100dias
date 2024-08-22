@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\dto\\trabajadores\\ingresartrabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\dto\\trabajadores\\ingresartrabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\dto\\trabajadores\\ingresartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\dto\\trabajadores\\ingresartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\models\\trabajadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +27,32 @@
       "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\models\\trabajadoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\models\\pierodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\models\\pierodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\pierodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\pierodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayordeedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\validaciones\\mayordeedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\20240821052923_actualizacionmodelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\20240819041329_migracioninicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\20240819041329_migracioninicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\migrations\\20240819041329_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\migrations\\20240819041329_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\models\\pierodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\models\\pierodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayordeedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|solutionrelative:proyecto100dias\\validaciones\\mayordeedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D8C885E-0285-4996-8BFD-0C654EB4F3AB}|proyecto100dias\\proyecto100dias.csproj|c:\\users\\acer\\documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +70,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ingresarTrabajadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\DTO\\trabajadores\\ingresarTrabajadorDTO.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\DTO\\trabajadores\\ingresarTrabajadorDTO.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\DTO\\trabajadores\\ingresarTrabajadorDTO.cs",
+              "RelativeToolTip": "proyecto100dias\\DTO\\trabajadores\\ingresarTrabajadorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:18:51.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "trabajadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Controllers\\trabajadoresController.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Controllers\\trabajadoresController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Controllers\\trabajadoresController.cs",
+              "RelativeToolTip": "proyecto100dias\\Controllers\\trabajadoresController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T03:21:14.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pieroDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\pieroDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\pieroDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\pieroDbContextModelSnapshot.cs",
+              "RelativeToolTip": "proyecto100dias\\Migrations\\pieroDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:03:51.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240821052923_actualizacionModelo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.Designer.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.Designer.cs",
+              "RelativeToolTip": "proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:03:51.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240819041329_migracionInicial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.Designer.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.Designer.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.Designer.cs",
+              "RelativeToolTip": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:03:50.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20240821052923_actualizacionModelo.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.cs",
               "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.cs",
@@ -62,56 +143,19 @@
               "RelativeToolTip": "proyecto100dias\\Migrations\\20240821052923_actualizacionModelo.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:29:23.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:29:23.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "mayorDeEdad.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayorDeEdad.cs",
-              "RelativeDocumentMoniker": "proyecto100dias\\validaciones\\mayorDeEdad.cs",
-              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayorDeEdad.cs",
-              "RelativeToolTip": "proyecto100dias\\validaciones\\mayorDeEdad.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "trabajadores.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadores.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Models\\trabajadores.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadores.cs",
+              "RelativeToolTip": "proyecto100dias\\Models\\trabajadores.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:10:55.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "trabajadoresDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadoresDTO.cs",
-              "RelativeDocumentMoniker": "proyecto100dias\\Models\\trabajadoresDTO.cs",
-              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadoresDTO.cs",
-              "RelativeToolTip": "proyecto100dias\\Models\\trabajadoresDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T04:32:08.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240819041329_migracionInicial.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
-              "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
-              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
-              "RelativeToolTip": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:13:30.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "trabajadoresController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Controllers\\trabajadoresController.cs",
-              "RelativeDocumentMoniker": "proyecto100dias\\Controllers\\trabajadoresController.cs",
-              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Controllers\\trabajadoresController.cs",
-              "RelativeToolTip": "proyecto100dias\\Controllers\\trabajadoresController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEsAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:21:14.06Z"
+              "WhenOpened": "2024-08-19T03:00:33.259Z"
             },
             {
               "$type": "Document",
@@ -128,7 +172,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "ingresarTrabajador.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\DTO\\trabajadores\\ingresarTrabajador.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\DTO\\trabajadores\\ingresarTrabajador.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\DTO\\trabajadores\\ingresarTrabajador.cs",
+              "RelativeToolTip": "proyecto100dias\\DTO\\trabajadores\\ingresarTrabajador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:21:04.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "trabajadoresDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadoresDTO.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Models\\trabajadoresDTO.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadoresDTO.cs",
+              "RelativeToolTip": "proyecto100dias\\Models\\trabajadoresDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T04:32:08.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240819041329_migracionInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
+              "RelativeToolTip": "proyecto100dias\\Migrations\\20240819041329_migracionInicial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T04:13:30.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mayorDeEdad.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayorDeEdad.cs",
+              "RelativeDocumentMoniker": "proyecto100dias\\validaciones\\mayorDeEdad.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\validaciones\\mayorDeEdad.cs",
+              "RelativeToolTip": "proyecto100dias\\validaciones\\mayorDeEdad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:10:55.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Program.cs",
               "RelativeDocumentMoniker": "proyecto100dias\\Program.cs",
@@ -140,19 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "trabajadores.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadores.cs",
-              "RelativeDocumentMoniker": "proyecto100dias\\Models\\trabajadores.cs",
-              "ToolTip": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\trabajadores.cs",
-              "RelativeToolTip": "proyecto100dias\\Models\\trabajadores.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:00:33.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "pieroDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\Models\\pieroDbContext.cs",
               "RelativeDocumentMoniker": "proyecto100dias\\Models\\pieroDbContext.cs",
@@ -164,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Acer\\Documents\\programar\\mis100dias\\proyecto100dias\\proyecto100dias\\appsettings.Development.json",
               "RelativeDocumentMoniker": "proyecto100dias\\appsettings.Development.json",

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using proyecto100dias.Models;
+using proyecto100dias.DTO.trabajadores;
 
 namespace proyecto100dias.Controllers
 {
@@ -64,16 +65,27 @@ namespace proyecto100dias.Controllers
         // POST: api/trabajadores
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<trabajadores>> Posttrabajadores(trabajadores trabajadores)
+        public async Task<ActionResult<ingresarTrabajadorDTO>> Posttrabajadores(ingresarTrabajadorDTO datoTrabajador)
         {
             if(!ModelState.IsValid)
             {
                 return BadRequest();
             }
-            _context.trabajadores.Add(trabajadores);
+
+            var datosIngresados = new trabajadores
+            {
+                primer_nombre = datoTrabajador.primerNombre,
+                segundo_nombre = datoTrabajador.segundoNombre,
+                primer_apellido = datoTrabajador.primerApellido,
+                segundo_apellido = datoTrabajador.segundoApellido,
+                rut_trabajador = datoTrabajador.rutTrabajador,
+                fecha_nacimiento = datoTrabajador.fechaNacimiento
+            };
+
+            _context.trabajadores.Add(datosIngresados);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("Gettrabajadores", new { id = trabajadores.id }, trabajadores);
+            return CreatedAtAction(nameof(Gettrabajadores), new { id = datosIngresados.id }, (datosIngresados));
         }
 
         // DELETE: api/trabajadores/5
@@ -101,6 +113,16 @@ namespace proyecto100dias.Controllers
             new trabajadoresDTO
             {
                 nombreCompleto = trabajadores.primer_nombre+ " " + trabajadores.segundo_nombre + " " + trabajadores.primer_apellido + " " + trabajadores.segundo_apellido
+            };
+        private static ingresarTrabajadorDTO ingresoADTO(trabajadores trabajador) =>
+            new ingresarTrabajadorDTO
+            {
+                primerNombre = trabajador.primer_nombre,
+                segundoNombre = trabajador.segundo_nombre,
+                primerApellido = trabajador.primer_apellido,
+                segundoApellido = trabajador.segundo_apellido,
+                rutTrabajador = trabajador.rut_trabajador,
+                fechaNacimiento = trabajador.fecha_nacimiento
             };
     }
 }
