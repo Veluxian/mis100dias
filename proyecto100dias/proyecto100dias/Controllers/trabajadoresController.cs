@@ -42,13 +42,14 @@ namespace proyecto100dias.Controllers
             }
 
             var datosAntiguos = await _context.trabajadores.FindAsync(id);
-
+            
             datosAntiguos.primer_nombre = modificarDatos.primerNombre;
             datosAntiguos.segundo_nombre = modificarDatos.segundoNombre;
             datosAntiguos.primer_apellido = modificarDatos.primerApellido;
             datosAntiguos.segundo_apellido = modificarDatos.segundoApellido;
+            datosAntiguos.rut_trabajador = modificarDatos.rutTrabajador;
             datosAntiguos.fecha_nacimiento = modificarDatos.fechaNacimiento;
-
+            
             try
             {
                 await _context.SaveChangesAsync();
