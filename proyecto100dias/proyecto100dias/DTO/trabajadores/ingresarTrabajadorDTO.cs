@@ -6,15 +6,15 @@ namespace proyecto100dias.DTO.trabajadores
     public class ingresarTrabajadorDTO
     {
         [Required]
-        public string primerNombre { get; set; }
+        public string? primerNombre { get; set; }
         public string? segundoNombre { get; set; }
         [Required]
-        public string primerApellido { get; set; }
+        public string? primerApellido { get; set; }
         [Required]
-        public string segundoApellido { get; set; }
+        public string? segundoApellido { get; set; }
         [Key, Required]
-        public int rutTrabajador { get; set; }
+        public int? rutTrabajador { get; set; }
         [mayorDeEdad, Required]
-        public DateOnly fechaNacimiento { get; set; }
+        public DateOnly? fechaNacimiento { get; set; }
     }
 }
