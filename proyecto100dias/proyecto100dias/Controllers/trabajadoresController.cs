@@ -34,29 +34,28 @@ namespace proyecto100dias.Controllers
         // PUT: api/trabajadores/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> Puttrabajadores(long id, trabajadores trabajadores)
+        public async Task<IActionResult> Puttrabajadores(long id, ingresarTrabajadorDTO modificarDatos)
         {
-            if (id != trabajadores.id)
+            if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            _context.Entry(trabajadores).State = EntityState.Modified;
+            var datosAntiguos = await _context.trabajadores.FindAsync(id);
+
+            datosAntiguos.primer_nombre = modificarDatos.primerNombre;
+            datosAntiguos.segundo_nombre = modificarDatos.segundoNombre;
+            datosAntiguos.primer_apellido = modificarDatos.primerApellido;
+            datosAntiguos.segundo_apellido = modificarDatos.segundoApellido;
+            datosAntiguos.fecha_nacimiento = modificarDatos.fechaNacimiento;
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!trabajadoresExists(id))
-                {
+            catch (DbUpdateConcurrencyException) when (ModelState.IsValid)
+            {                
                     return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
             }
 
             return NoContent();
