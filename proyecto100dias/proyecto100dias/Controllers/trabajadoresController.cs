@@ -33,30 +33,30 @@ namespace proyecto100dias.Controllers
 
         // PUT: api/trabajadores/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Puttrabajadores(long id, ingresarTrabajadorDTO modificarDatos)
+        [HttpPut("{rut}")]
+        public async Task<IActionResult> Puttrabajadores(long rut, ingresarTrabajadorDTO modificarDatos)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            var datosAntiguos = await _context.trabajadores.FindAsync(id);
-            
+            var datosAntiguos = await _context.trabajadores.FindAsync(IDRut);
+
             datosAntiguos.primer_nombre = modificarDatos.primerNombre;
             datosAntiguos.segundo_nombre = modificarDatos.segundoNombre;
             datosAntiguos.primer_apellido = modificarDatos.primerApellido;
             datosAntiguos.segundo_apellido = modificarDatos.segundoApellido;
             datosAntiguos.rut_trabajador = modificarDatos.rutTrabajador;
             datosAntiguos.fecha_nacimiento = modificarDatos.fechaNacimiento;
-            
+
             try
             {
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException) when (ModelState.IsValid)
-            {                
-                    return NotFound();
+            {
+                return NotFound();
             }
 
             return NoContent();
@@ -67,7 +67,7 @@ namespace proyecto100dias.Controllers
         [HttpPost]
         public async Task<ActionResult<ingresarTrabajadorDTO>> Posttrabajadores(ingresarTrabajadorDTO datoTrabajador)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
@@ -112,7 +112,7 @@ namespace proyecto100dias.Controllers
         private static trabajadoresDTO nombreCompletoDTO(trabajadores trabajadores) =>
             new trabajadoresDTO
             {
-                nombreCompleto = trabajadores.primer_nombre+ " " + trabajadores.segundo_nombre + " " + trabajadores.primer_apellido + " " + trabajadores.segundo_apellido
+                nombreCompleto = trabajadores.primer_nombre + " " + trabajadores.segundo_nombre + " " + trabajadores.primer_apellido + " " + trabajadores.segundo_apellido
             };
         private static ingresarTrabajadorDTO ingresoADTO(trabajadores trabajador) =>
             new ingresarTrabajadorDTO
@@ -124,5 +124,7 @@ namespace proyecto100dias.Controllers
                 rutTrabajador = trabajador.rut_trabajador,
                 fechaNacimiento = trabajador.fecha_nacimiento
             };
+
+                
     }
 }
