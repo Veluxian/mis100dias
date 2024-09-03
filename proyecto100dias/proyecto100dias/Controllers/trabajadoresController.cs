@@ -34,13 +34,14 @@ namespace proyecto100dias.Controllers
         // PUT: api/trabajadores/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{rut}")]
-        public async Task<IActionResult> Puttrabajadores(long rut, ingresarTrabajadorDTO modificarDatos)
+        public async Task<IActionResult> Puttrabajadores(int rut, ingresarTrabajadorDTO modificarDatos)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
+            var IDRut = obtenerIdPorRut(rut);
             var datosAntiguos = await _context.trabajadores.FindAsync(IDRut);
 
             datosAntiguos.primer_nombre = modificarDatos.primerNombre;
@@ -124,6 +125,15 @@ namespace proyecto100dias.Controllers
                 rutTrabajador = trabajador.rut_trabajador,
                 fechaNacimiento = trabajador.fecha_nacimiento
             };
+
+        private async Task<int> obtenerIdPorRut (int idPorRut)
+        {
+            var idRut = await _context.trabajadores
+                .Where(trabajador => trabajador.rut_trabajador == idPorRut)
+                .Select(trabajador => trabajador.id)
+                .FirstOrDefaultAsync();
+            return (int)idRut;
+        }
 
                 
     }
