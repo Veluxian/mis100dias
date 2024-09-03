@@ -41,7 +41,17 @@ namespace proyecto100dias.Controllers
                 return BadRequest();
             }
 
-            var IDRut = obtenerIdPorRut(rut);
+            var idRut = await _context.trabajadores
+                .Where(t => t.rut_trabajador == rut)
+                .Select(t => t.id)
+                .FirstOrDefaultAsync();
+            
+            if (idRut == 0)
+            {
+               return NotFound();
+            }
+
+            var IDRut = idRut;
             var datosAntiguos = await _context.trabajadores.FindAsync(IDRut);
 
             datosAntiguos.primer_nombre = modificarDatos.primerNombre;
@@ -124,17 +134,6 @@ namespace proyecto100dias.Controllers
                 segundoApellido = trabajador.segundo_apellido,
                 rutTrabajador = trabajador.rut_trabajador,
                 fechaNacimiento = trabajador.fecha_nacimiento
-            };
-
-        private async Task<int> obtenerIdPorRut (int idPorRut)
-        {
-            var idRut = await _context.trabajadores
-                .Where(trabajador => trabajador.rut_trabajador == idPorRut)
-                .Select(trabajador => trabajador.id)
-                .FirstOrDefaultAsync();
-            return (int)idRut;
-        }
-
-                
+            };                
     }
 }
